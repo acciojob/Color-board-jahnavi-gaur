@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+/* Individual squares */
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #1d1d1d;
+    transition: background-color 1s ease;
+}
